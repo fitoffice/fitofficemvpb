@@ -1,0 +1,62 @@
+{
+  "name": "Rutina de Prueba",
+  "description": "Esta es una rutina de ejemplo para probar el endpoint POST",
+  "tags": ["principiante", "fuerza", "fullbody"],
+  "notes": "Realizar esta rutina 3 veces por semana con 1 día de descanso entre sesiones",
+  "exercises": [
+    {
+      "name": "Press de Banca",
+      "metrics": [
+        {
+          "type": "Repeticiones",
+          "value": "12"
+        },
+        {
+          "type": "Peso",
+          "value": "50"
+        },
+        {
+          "type": "Descanso",
+          "value": "90"
+        }
+      ],
+      "notes": "Mantener escápulas retraídas"
+    },
+    {
+      "name": "Sentadillas",
+      "metrics": [
+        {
+          "type": "Repeticiones",
+          "value": "15"
+        },
+        {
+          "type": "Peso",
+          "value": "60"
+        },
+        {
+          "type": "Descanso",
+          "value": "120"
+        }
+      ],
+      "notes": "Mantener core activado"
+    },
+    {
+      "name": "Dominadas",
+      "metrics": [
+        {
+          "type": "Repeticiones",
+          "value": "8"
+        },
+        {
+          "type": "Peso",
+          "value": "0"
+        },
+        {
+          "type": "Descanso",
+          "value": "60"
+        }
+      ],
+      "notes": "Agarre prono, ancho de hombros"
+    }
+  ]
+}

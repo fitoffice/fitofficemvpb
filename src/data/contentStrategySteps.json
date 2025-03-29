@@ -1,0 +1,141 @@
+{
+  "steps": [
+    {
+      "id": 1,
+      "question": "¿Cuál es el principal objetivo de tu estrategia de contenidos?",
+      "options": [
+        "Aumentar la visibilidad de mi marca",
+        "Generar leads y captar nuevos clientes",
+        "Retener y fidelizar a mis clientes actuales",
+        "Educar a mi audiencia sobre fitness y bienestar"
+      ],
+      "multiSelect": false,
+      "required": true,
+      "defaultAnswer": [],
+      "helpText": "Selecciona el objetivo principal que quieres lograr con tu estrategia de contenidos",
+      "category": "objectives"
+    },
+    {
+      "id": 2,
+      "question": "¿Qué tipos de contenido prefieres crear?",
+      "options": [
+        "Artículos de blog",
+        "Videos instructivos",
+        "Infografías",
+        "Publicaciones en redes sociales",
+        "Testimonios de clientes",
+        "Reels y contenido corto",
+        "Podcasts",
+        "Guías y ebooks",
+        "Webinars en vivo"
+      ],
+      "multiSelect": true,
+      "required": true,
+      "defaultAnswer": [],
+      "helpText": "Puedes seleccionar múltiples tipos de contenido que te gustaría crear",
+      "category": "contentTypes",
+      "recommendations": {
+        "beginner": ["Publicaciones en redes sociales", "Reels y contenido corto"],
+        "intermediate": ["Videos instructivos", "Infografías", "Testimonios"],
+        "advanced": ["Webinars", "Podcasts", "Guías y ebooks"]
+      }
+    },
+    {
+      "id": 3,
+      "question": "¿Con qué frecuencia planeas publicar contenido?",
+      "options": [
+        "Diariamente (7 posts/semana)",
+        "Frecuentemente (4-5 posts/semana)",
+        "Regularmente (2-3 posts/semana)",
+        "Semanalmente (1 post/semana)",
+        "Quincenalmente"
+      ],
+      "multiSelect": false,
+      "required": true,
+      "defaultAnswer": [],
+      "helpText": "Elige una frecuencia que puedas mantener consistentemente",
+      "category": "frequency",
+      "recommendations": {
+        "minimal": "Semanalmente",
+        "optimal": "Frecuentemente",
+        "aggressive": "Diariamente"
+      }
+    },
+    {
+      "id": 4,
+      "question": "¿Qué plataformas de distribución utilizas principalmente?",
+      "options": [
+        "Instagram",
+        "YouTube",
+        "Facebook",
+        "TikTok",
+        "LinkedIn",
+        "Blog propio",
+        "Email marketing",
+        "Twitter",
+        "Pinterest"
+      ],
+      "multiSelect": true,
+      "required": true,
+      "defaultAnswer": [],
+      "helpText": "Selecciona las plataformas donde tu audiencia está más activa",
+      "category": "platforms",
+      "platformMetrics": {
+        "Instagram": {
+          "bestTimes": ["9:00", "12:00", "15:00"],
+          "postTypes": ["Reels", "Stories", "Posts"],
+          "recommendedFrequency": "1-2 posts/día"
+        },
+        "YouTube": {
+          "bestTimes": ["14:00", "17:00", "20:00"],
+          "postTypes": ["Tutorials", "Vlogs", "Short-form"],
+          "recommendedFrequency": "2-3 videos/semana"
+        },
+        "Facebook": {
+          "bestTimes": ["11:00", "13:00", "19:00"],
+          "postTypes": ["Live videos", "Articles", "Community posts"],
+          "recommendedFrequency": "3-4 posts/semana"
+        },
+        "TikTok": {
+          "bestTimes": ["9:00", "12:00", "19:00"],
+          "postTypes": ["Challenges", "Tutorials", "Trending"],
+          "recommendedFrequency": "1-3 posts/día"
+        }
+      }
+    }
+  ],
+  "recommendationTemplates": {
+    "contentIdeas": {
+      "fitness": [
+        "Rutinas de ejercicios para principiantes",
+        "Tips de nutrición saludable",
+        "Técnicas correctas de ejercicios",
+        "Historias de transformación",
+        "Recetas saludables",
+        "Consejos de recuperación",
+        "Mitos y verdades del fitness",
+        "Rutinas rápidas para personas ocupadas"
+      ]
+    },
+    "hashtagGroups": {
+      "fitness": [
+        "#FitnessMotivation",
+        "#WorkoutRoutine",
+        "#HealthyLifestyle",
+        "#FitnessJourney",
+        "#FitnessTips"
+      ],
+      "nutrition": [
+        "#HealthyEating",
+        "#CleanEating",
+        "#NutritionTips",
+        "#HealthyRecipes",
+        "#MealPrep"
+      ]
+    },
+    "captionTemplates": {
+      "workout": "💪 {ejercicio} para {objetivo}\n\n👉 Beneficios:\n{beneficios}\n\n📝 Instrucciones:\n{instrucciones}\n\n#fitness #workout",
+      "nutrition": "🥗 {título}\n\n✨ Beneficios:\n{beneficios}\n\n🛒 Ingredientes:\n{ingredientes}\n\n#nutrition #healthy"
+    }
+  }
+}

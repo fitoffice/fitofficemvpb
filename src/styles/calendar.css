@@ -1,0 +1,86 @@
+/* Dark theme styles for the calendar */
+.calendar-dark .rbc-header {
+  color: #e5e7eb;
+  background-color: #374151;
+  border-bottom: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-month-view {
+  border: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-day-bg {
+  background-color: #1f2937;
+}
+
+.calendar-dark .rbc-off-range-bg {
+  background-color: #111827;
+}
+
+.calendar-dark .rbc-today {
+  background-color: rgba(79, 70, 229, 0.1);
+}
+
+.calendar-dark .rbc-month-row {
+  border-bottom: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-date-cell {
+  color: #e5e7eb;
+  padding: 4px 8px;
+}
+
+.calendar-dark .rbc-off-range {
+  color: #6b7280;
+}
+
+.calendar-dark .rbc-show-more {
+  color: #93c5fd;
+  background-color: transparent;
+}
+
+.calendar-dark .rbc-time-view {
+  border: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-time-header {
+  border-bottom: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-time-header-content {
+  border-left: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-time-content {
+  border-top: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-time-content > * + * > * {
+  border-left: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-time-slot {
+  color: #9ca3af;
+}
+
+.calendar-dark .rbc-day-slot .rbc-time-slot {
+  border-top: 1px solid #374151;
+}
+
+.calendar-dark .rbc-agenda-view table.rbc-agenda-table {
+  border: 1px solid #4b5563;
+}
+
+.calendar-dark .rbc-agenda-view table.rbc-agenda-table thead > tr > th {
+  border-bottom: 1px solid #4b5563;
+  color: #e5e7eb;
+}
+
+.calendar-dark .rbc-agenda-view table.rbc-agenda-table tbody > tr > td {
+  border-bottom: 1px solid #4b5563;
+  color: #e5e7eb;
+}
+
+.calendar-dark .rbc-agenda-view table.rbc-agenda-table tbody > tr > td + td {
+  border-left: 1px solid #4b5563;
+}

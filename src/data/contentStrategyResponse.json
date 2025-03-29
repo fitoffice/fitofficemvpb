@@ -1,0 +1,24 @@
+{
+  "userId": "user123",
+  "timestamp": "2025-01-01T22:55:39+01:00",
+  "contentStrategy": {
+    "objective": [
+      "Generar leads y captar nuevos clientes"
+    ],
+    "contentTypes": [
+      "Videos instructivos",
+      "Publicaciones en redes sociales",
+      "Testimonios de clientes"
+    ],
+    "frequency": [
+      "Frecuentemente (4-5 posts/semana)"
+    ],
+    "platforms": [
+      "Instagram",
+      "YouTube",
+      "TikTok"
+    ]
+  },
+  "status": "completed",
+  "version": "1.0"
+}
