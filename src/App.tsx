@@ -2,7 +2,7 @@
 import {
   BrowserRouter as Router,
   Route,
-  Routes,
+  Routes, 
   Navigate,
   useLocation,
 } from 'react-router-dom';

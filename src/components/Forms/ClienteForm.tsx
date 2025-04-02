@@ -145,7 +145,7 @@ const ClienteForm: React.FC<ClienteFormProps> = ({ onSubmit }) => {
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Fecha de Nacimiento
+              Fecha de nacimiento
             </label>
             <input
               type="date"
